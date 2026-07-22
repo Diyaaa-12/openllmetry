@@ -134,13 +134,15 @@ class SpanAttributes:
 
     # Deprecated
     TRACELOOP_CORRELATION_ID = "traceloop.correlation.id"
+
+    # Watson/genai LLM
+    GEN_AI_WATSONX_DECODING_METHOD = "llm.watsonx.decoding_method"
+
+    # External work receipt references (opt-in) - see issue 4340
     AIPOU_WORK_RECEIPT_ID = "aipou.work_receipt_id"
     AIPOU_EVIDENCE_CLASS = "aipou.evidence_class"
     AIPOU_SCHEME = "aipou.scheme"
     AIPOU_VALIDATION_STATUS = "aipou.validation_status"
-
-    # Watson/genai LLM
-    GEN_AI_WATSONX_DECODING_METHOD = "llm.watsonx.decoding_method"
     GEN_AI_WATSONX_RANDOM_SEED = "llm.watsonx.random_seed"
     GEN_AI_WATSONX_MAX_NEW_TOKENS = "llm.watsonx.max_new_tokens"
     GEN_AI_WATSONX_MIN_NEW_TOKENS = "llm.watsonx.min_new_tokens"
